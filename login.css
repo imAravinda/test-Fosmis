@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(green,yellow);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    height: fit-content;
+    width: 80%;
+    color: white;
+    background: brown;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 75px;
+    padding: 10px;
+}
+.fms {
+    padding: 10px;
+    background: #0000002d;
+}
+.marquee {
+    padding: 10px 0px;
+    background: #efefef2d;
+}
+.log {
+    display: flex;
+    padding: 10px;
+    background: #0000002d;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img ,.signin{
+    flex-basis: 45%;
+}
+.signin {
+    display: flex;
+    justify-content: center;
+    background: #efefef2d;
+    height: 300px;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.btn button{
+    padding: 5px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    border:none;
+    background-color: rgb(22, 62, 241);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.signin input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 5px;
+    outline: none;
+}
+.btn button:hover{
+    transform: translateY(-2.5px);
+}
+
